@@ -3,10 +3,10 @@ package reloj;
 public class VisorNumeros {
      private int valor, limite;
      
-     public VisorNumeros(int v, int l) {
-        if (v>=0 && v<l) {
-            limite=l;
-            valor=v;
+     public VisorNumeros(int vv, int ll) {
+        if (vv>=0 && vv<ll) {
+            limite=ll;
+            valor=vv;
         }
      }
      
